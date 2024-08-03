@@ -9,3 +9,13 @@ Throttle download speed of any (*.bin default) file type.
 @parameters: file = name of the file in same folder as script
 @parameters: bw = throttle bandwith in bytes, default is 4096/sec
 ```
+
+Usage example for 20KB/s:
+```
+slowmo_download.php?file=ota-firmware-v1.1.bin&bw=20480
+```
+
+Usage example for 8KB/s:
+```
+slowmo_download.php?file=ota-firmware-v1.1.bin&bw=8192
+```
